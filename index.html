@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>空の色のグラデーション</title>
+  
+  <!-- HTML -->
+  <link rel="icon" href="data:image/x-icon;,">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <section>
+      縦横比：
+      <input type="radio" name="canvasRatio" id="holizontal" value="holizontal">
+      <label for="holizontal">3:2</label>
+      <input type="radio" name="canvasRatio" id="vertical" value="vertical">
+      <label for="vertical">2:3</label>
+    </section>
+    <section class="bar">
+      <input type="range" name="bar1" id="bar1" value="0" min="0"/>
+      <label id="bar1Label" for="bar1">0</label>
+    </section>
+    <section>
+      <button id="btnRandom">Change</button>
+    </section>
+    <canvas id="canvas" width="400" height="400">
+    </canvas>
+  </div>
+  <p></p>
+  <!-- Project -->
+  <script src="gradColorData.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

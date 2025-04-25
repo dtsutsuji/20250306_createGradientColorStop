@@ -1,0 +1,16 @@
+body {
+    font-size: 14pt;
+    background-color: oklch(70% 10% 270)
+}
+div#main {
+  margin: 16px;
+  text-align: center;
+}
+
+section.bar {
+  margin: 8px;
+  padding: 0;
+}
+canvas {
+  margin: 1em auto;
+}
